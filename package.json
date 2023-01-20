@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "better-sqlite3": "^8.0.1",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "dev": "DB_FILE=db.sqlite node index.js",
+    "seed": "DB_FILE=db.sqlite node database/seed.js",
+    "test": "DB_FILE=test.sqlite node test/tasks.test.js"
+  }
+}
